@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Fredoka", sans-serif;
+    box-sizing: border-box;
 }
 body {
     /* background-color: #111A36;
@@ -159,4 +160,13 @@ h1 #tac {
 }
 .hide{
     display: none;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
